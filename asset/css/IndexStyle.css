@@ -1,0 +1,32 @@
+.w3-content,.w3-section{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+/* .w3-button,.w3-display-left,.w3-black{
+    text-align: center;
+} */
+.description{
+    padding-top: 20px;
+}
+.social-media{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.social-media-logo-container {
+    display: inline-block;
+}
+
+.twitter-logo{
+    max-width: 20%;
+    border-radius: 50%;
+}
+.facebook-logo{
+    max-width: 20%;
+    border-radius: 50%;
+}
+.youtube-logo{
+    max-width: 20%;
+    border-radius: 50%;
+}
