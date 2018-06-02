@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: url("../img/background.jpg");
+    background-size: cover;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+li{
+    color: white;
+}
+li:hover{
+    background-color: darkslategray;
+}
+.navbar{
+    background-color: black;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    border-radius: 1%;
+    min-height: 700px;
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.col{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:500px){
+    ul{
+        padding-left: 0;
+    }
+    ul li{
+        padding: 10px;
+        display: block;
+    }
+    .navbar{
+        padding: 10px;
+    }
+}
